@@ -28,6 +28,7 @@ h1 {
 }
 
 .portrait1 {
+    font-family: 'Texturina', serif;
     margin: 50px;
     align-items: center;
     text-align: center;
@@ -44,6 +45,7 @@ h1 {
 }
 
 .portrait2 {
+    font-family: 'Texturina', serif;
     margin: 50px;
     align-items: center;
     text-align: center;
@@ -58,6 +60,7 @@ h1 {
 }
 
 .portrait3 {
+    font-family: 'Texturina', serif;
     margin: 50px;
     text-align: center;
 }
@@ -71,6 +74,7 @@ h1 {
 }
 
 .portrait4 {
+    font-family: 'Texturina', serif;
     margin: 50px;
     align-items: center;
     text-align: center;
@@ -85,6 +89,7 @@ h1 {
 }
 
 .portrait5 {
+    font-family: 'Texturina', serif;
     margin: 50px;
     align-items: center;
     text-align: center;
