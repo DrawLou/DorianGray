@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(rgb(255, 255, 255), rgb(26, 26, 26));
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+}
+
+.livre {   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 0 solid;
+    border-radius: 8px;
+    background-color: white;
+    height: 300px;
+    width: 800px;
+}
+
+.livre p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.portrait1 {
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.motCle1 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    
+}
+
+.portrait2 {
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.motCle2 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+}
+
+.portrait3 {
+    margin: 50px;
+    text-align: center;
+}
+
+.motCle3 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+}
+
+.portrait4 {
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.motCle4 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+}
+
+.portrait5 {
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.motCle5 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    
+}
