@@ -211,6 +211,9 @@ body {
     opacity: 50%;
 }
 
+/* KEYFRAMES */
+
+/* GLITCH */
 
 @keyframes glitch{
     2%,64%{
@@ -265,3 +268,30 @@ body {
       transform: translate(-22px,5px) skew(21deg); 
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
