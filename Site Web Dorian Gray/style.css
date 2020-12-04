@@ -2,6 +2,8 @@ body {
     background: linear-gradient(rgb(255, 255, 255), rgb(26, 26, 26));
 }
 
+/* PAGE D'ACCUEIL */
+
 .titre {
     font-size: 50px;
     font-family: 'Texturina', serif;
@@ -26,6 +28,8 @@ body {
     text-align: justify;
     font-size: 18px;
 }
+
+/* PORTRAIT 1 */
 
 .portrait1 {
     font-family: 'Texturina', serif;
@@ -62,6 +66,8 @@ body {
     opacity: 50%;
 }
 
+/* PORTRAIT 2 */
+
 .portrait2 {
     font-family: 'Texturina', serif;
     margin: 50px;
@@ -79,6 +85,7 @@ body {
 
 .portrait2 h2 {
     font-size: 60px;
+    animation: glitch 1s linear infinite;
 }
 
 .motCle2 h3{
@@ -94,6 +101,8 @@ body {
     margin: -70px;
     opacity: 50%;
 }
+
+/* PORTRAIT 3 */
 
 .portrait3 {
     font-family: 'Texturina', serif;
@@ -111,6 +120,7 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
+    animation: glitch 1s linear infinite;
 }
 
 .motCle3 h3{
@@ -126,6 +136,8 @@ body {
     margin: -70px;
     opacity: 50%;
 }
+
+/* PORTRAIT 4 */
 
 .portrait4 {
     font-family: 'Texturina', serif;
@@ -144,6 +156,7 @@ body {
 
 .portrait4 h2 {
     font-size: 60px;
+    animation: glitch 1s linear infinite;
 }
 
 .motCle4 h3{
@@ -159,6 +172,8 @@ body {
     margin: -70px;
     opacity: 50%;
 }
+
+/* PORTRAIT 5 */
 
 .portrait5 {
     font-family: 'Texturina', serif;
@@ -179,7 +194,6 @@ body {
 
 .portrait5 h2 {
     font-size: 60px;
-    animation: glitch 1s linear infinite;
     color: white;
 }
 
@@ -210,13 +224,13 @@ body {
     }
   }
   
-div:before, div:after{
-    content: attr(title);
+.portrait5 h2:before, .portrait5 h2:after{
+    content: attr(portrait);
     position: absolute;
     left: 0;
   }
   
-div:before{
+.portrait5 h2:before{
     animation: glitchTop 1s linear infinite;
     clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -234,7 +248,7 @@ div:before{
     }
   }
   
-div:after{
+.portrait5 h2:after{
     animation: glitchBotom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
