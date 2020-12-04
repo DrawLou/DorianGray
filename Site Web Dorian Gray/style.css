@@ -44,6 +44,20 @@ h1 {
     
 }
 
+.motCle1 h3{
+    position: relative;
+    top: 110px;
+    left: 5px;
+    font-size: 40px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait1 {
+    display: block;
+    margin: -40px;
+    opacity: 50%;
+}
+
 .portrait2 {
     font-family: 'Texturina', serif;
     margin: 50px;
