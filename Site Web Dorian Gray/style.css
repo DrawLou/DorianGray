@@ -77,6 +77,24 @@ body {
     height: 350px;
 }
 
+.portrait2 h2 {
+    font-size: 60px;
+}
+
+.motCle2 h3{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 50px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait2 {
+    display: block;
+    margin: -70px;
+    opacity: 50%;
+}
+
 .portrait3 {
     font-family: 'Texturina', serif;
     margin: 50px;
@@ -89,6 +107,24 @@ body {
     background-color: whitesmoke;
     width: 350px;
     height: 350px;
+}
+
+.portrait3 h2 {
+    font-size: 60px;
+}
+
+.motCle3 h3{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 50px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait3 {
+    display: block;
+    margin: -70px;
+    opacity: 50%;
 }
 
 .portrait4 {
@@ -106,6 +142,24 @@ body {
     height: 350px;
 }
 
+.portrait4 h2 {
+    font-size: 60px;
+}
+
+.motCle4 h3{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 50px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait4 {
+    display: block;
+    margin: -70px;
+    opacity: 50%;
+}
+
 .portrait5 {
     font-family: 'Texturina', serif;
     margin: 50px;
@@ -121,4 +175,22 @@ body {
     height: 350px;
     padding: 5px;
     
+}
+
+.portrait5 h2 {
+    font-size: 60px;
+}
+
+.motCle5 h3{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 50px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait5 {
+    display: block;
+    margin: -70px;
+    opacity: 50%;
 }
