@@ -85,7 +85,7 @@ body {
 
 .portrait2 h2 {
     font-size: 60px;
-    animation: glitch 1s linear infinite;
+    animation: moveX 5s linear 0s infinite normal both; 
 }
 
 .motCle2 h3{
@@ -94,6 +94,7 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
+    animation: glitch 2s linear infinite;
 }
 
 .textPortrait2 {
@@ -120,7 +121,7 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
-    animation: glitch 1s linear infinite;
+    animation: moveX 2.5s linear 0s infinite normal both;
 }
 
 .motCle3 h3{
@@ -129,6 +130,7 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
+    animation: glitch 1s linear infinite;
 }
 
 .textPortrait3 {
@@ -165,6 +167,7 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
+    animation: glitch 0.4s linear infinite;
 }
 
 .textPortrait4 {
@@ -270,6 +273,16 @@ body {
   }
 
 
+/* moveX */
+
+@keyframes moveX {
+    0% {
+        transform: translateX(-800px);
+    }
+    100% {
+        transform: translateX(1800px);
+    }
+}
 
 
 
@@ -291,7 +304,3 @@ body {
 
 
 
-
-
-
-  
