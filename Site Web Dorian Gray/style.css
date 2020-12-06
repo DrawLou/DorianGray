@@ -5,10 +5,10 @@ body {
 /* PAGE D'ACCUEIL */
 
 .titre {
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Texturina', serif;
     text-align: center;
-    margin: 100px;
+    margin-top: 130px;
     padding: 50px;
 }
 
@@ -86,7 +86,7 @@ body {
 
 .portrait2 h2 {
     font-size: 60px;
-    animation: moveX 5s linear 0s infinite normal both; 
+    animation: heartbeat 1s infinite; 
 }
 
 .motCle2 h3{
@@ -95,7 +95,6 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
-    animation: glitch 2s linear infinite;
 }
 
 .textPortrait2 {
@@ -109,6 +108,7 @@ body {
 .portrait3 {
     font-family: 'Texturina', serif;
     margin-top: 300px;
+    align-items: center;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
-    animation: moveX 2.5s linear 0s infinite normal both;
+    animation: moveX 5s linear 0s infinite normal both; 
 }
 
 .motCle3 h3{
@@ -131,7 +131,7 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
-    animation: glitch 1s linear infinite;
+    animation: glitch 2s linear infinite;
 }
 
 .textPortrait3 {
@@ -145,7 +145,6 @@ body {
 .portrait4 {
     font-family: 'Texturina', serif;
     margin-top: 300px;
-    align-items: center;
     text-align: center;
 }
 
@@ -159,7 +158,7 @@ body {
 
 .portrait4 h2 {
     font-size: 60px;
-    animation: glitch 1s linear infinite;
+    animation: moveX 2.5s linear 0s infinite normal both;
 }
 
 .motCle4 h3{
@@ -168,7 +167,7 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
-    animation: glitch 0.4s linear infinite;
+    animation: glitch 1s linear infinite;
 }
 
 .textPortrait4 {
@@ -192,13 +191,11 @@ body {
     background-color: whitesmoke;
     width: 350px;
     height: 350px;
-    padding: 5px;
-    
 }
 
 .portrait5 h2 {
     font-size: 60px;
-    color: white;
+    animation: glitch 1s linear infinite;
 }
 
 .motCle5 h3{
@@ -207,9 +204,48 @@ body {
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
+    animation: glitch 0.4s linear infinite;
 }
 
 .textPortrait5 {
+    display: block;
+    margin: -70px;
+    opacity: 50%;
+}
+
+/* PORTRAIT 6 */
+
+.portrait6 {
+    font-family: 'Texturina', serif;
+    margin-top: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.motCle6 {
+    border: 4mm ridge goldenrod;
+    margin: auto;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    
+}
+
+.portrait6 h2 {
+    font-size: 60px;
+    color: white;
+}
+
+.motCle6 h3{
+    position: relative;
+    top: 90px;
+    left: 5px;
+    font-size: 50px;
+    /*color: rgb(37, 253, 37);*/
+}
+
+.textPortrait6 {
     display: block;
     margin: -70px;
     opacity: 50%;
@@ -285,7 +321,33 @@ body {
     }
 }
 
-
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
 
 
 
