@@ -22,6 +22,7 @@ body {
     height: 300px;
     width: 800px;
     font-family: 'Special Elite', cursive;
+    margin-top: 300px;
 }
 
 .livre p{
@@ -33,7 +34,7 @@ body {
 
 .portrait1 {
     font-family: 'Texturina', serif;
-    margin: 50px;
+    margin-top: 300px;
     align-items: center;
     text-align: center;
 }
@@ -70,7 +71,7 @@ body {
 
 .portrait2 {
     font-family: 'Texturina', serif;
-    margin: 50px;
+    margin-top: 300px;
     align-items: center;
     text-align: center;
 }
@@ -107,7 +108,7 @@ body {
 
 .portrait3 {
     font-family: 'Texturina', serif;
-    margin: 50px;
+    margin-top: 300px;
     text-align: center;
 }
 
@@ -143,7 +144,7 @@ body {
 
 .portrait4 {
     font-family: 'Texturina', serif;
-    margin: 50px;
+    margin-top: 300px;
     align-items: center;
     text-align: center;
 }
@@ -180,7 +181,7 @@ body {
 
 .portrait5 {
     font-family: 'Texturina', serif;
-    margin: 50px;
+    margin-top: 300px;
     align-items: center;
     text-align: center;
 }
