@@ -77,36 +77,32 @@ body {
     text-align: center;
 }
 
-.motCle2 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-}
-
 .portrait2 h2 {
     font-size: 60px;
     animation: heartbeat 1s infinite; 
 }
 
-.motCle2 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    /*color: rgb(37, 253, 37);*/
-}
-
-.textPortrait2 {
-  display: block;
-  position: static;
-  margin: -175px;
+#text2 {
+  margin-top: 20px;
   opacity: 50%;
   align-items: center;
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
+  font-size: 45px;
   animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
+}
+
+#blocImage2 {
+  display: block;
+  position: relative;
+  background-image:url(images/portrait1.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* PORTRAIT 3 */
@@ -118,37 +114,33 @@ body {
     text-align: center;
 }
 
-.motCle3 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-}
-
 .portrait3 h2 {
     font-size: 60px;
     animation: moveX 10s linear 0s infinite normal both; 
 }
 
-.motCle3 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    /*color: rgb(37, 253, 37);*/
-    animation: glitch 2s linear infinite;
-}
-
-.textPortrait3 {
-  display: block;
-  position: static;
-  margin: -175px;
+#text3 {
+  margin-top: 20px;
   opacity: 50%;
   align-items: center;
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
+  font-size: 45px;
   animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
+}
+
+#blocImage3 {
+  display: block;
+  position: relative;
+  background-color: white;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: test 10s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 4 */
@@ -159,37 +151,33 @@ body {
     text-align: center;
 }
 
-.motCle4 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-}
-
 .portrait4 h2 {
     font-size: 60px;
     animation: moveX 3s linear 0s infinite normal both;
 }
 
-.motCle4 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    /*color: rgb(37, 253, 37);*/
-    animation: glitch 1s linear infinite;
-}
-
-.textPortrait4 {
-  display: block;
-  position: static;
-  margin: -175px;
+#text4 {
+  margin-top: 20px;
   opacity: 50%;
   align-items: center;
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
+  font-size: 45px;
   animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
+}
+
+#blocImage4 {
+  display: block;
+  position: relative;
+  background-color: white;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: test2 7s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -201,37 +189,32 @@ body {
     text-align: center;
 }
 
-.motCle5 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-}
-
 .portrait5 h2 {
     font-size: 60px;
     /*animation: glitch 1s linear infinite;*/
 }
 
-.motCle5 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    /*color: rgb(37, 253, 37);*/
-    animation: glitch 0.4s linear infinite;
-}
-
-.textPortrait5 {
-  display: block;
-  position: static;
-  margin: -150px;
+#text5 {
+  margin-top: 20px;
   opacity: 50%;
   align-items: center;
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
+  font-size: 45px;
   animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
+}
+
+#blocImage5 {
+  display: block;
+  position: relative;
+  background-image: url(images/portrait2.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* PORTRAIT 6 */
@@ -243,38 +226,32 @@ body {
     text-align: center;
 }
 
-.motCle6 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-    padding: 5px;
-    
-}
-
 .portrait6 h2 {
     font-size: 60px;
     color: white;
 }
 
-.motCle6 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    /*color: rgb(37, 253, 37);*/
-}
-
-.textPortrait6 {
-  display: block;
-  position: static;
-  margin: -175px;
+#text6 {
+  margin-top: 20px;
   opacity: 50%;
   align-items: center;
   font-family: 'Special Elite', cursive;
-  font-size: 50px;
+  font-size: 45px;
   animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
+}
+
+#blocImage6 {
+  display: block;
+  position: relative;
+  background-image:url(images/portrait1.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* KEYFRAMES */
@@ -384,12 +361,25 @@ body {
   }
 }
 
+@-webkit-keyframes test {
+  0% {
+    background-image: url(images/portrait1.png);
+  }
+  35% {
+    background-image: url(images/portrait2.png);
+  }
+  100% {
+    background-image: url(images/portrait1.png);
+  }
+}
 
-
-
-
-
-
+@-webkit-keyframes test2 {
+  0% {
+    background-image: url(images/portrait1.png);
+  }
+  100% {
+    background-image: url(images/portrait2.png);
+}
 
 
 
