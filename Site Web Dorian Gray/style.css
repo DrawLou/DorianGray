@@ -39,39 +39,40 @@ body {
     text-align: center;
 }
 
-.motCle1 {
-    border: 4mm ridge goldenrod;
-    margin: auto;
-    background-color: whitesmoke;
-    width: 350px;
-    height: 350px;
-    padding: 10px;
-}
-
 .portrait1 h2 {
     font-size: 60px;
 }
 
-.motCle1 h3{
-    position: relative;
-    top: 80px;
-    left: 5px;
-    font-size: 50px;
-    opacity: 100%;
-    /*color: rgb(2, 233, 2);*/
+#blocImage p {
+  width: 100%;
+  margin : auto;
+  z-index: 200;
 }
 
-.textPortrait1 {
-    display: block;
-    position: static;
-    margin: -175px;
-    opacity: 50%;
-    align-items: center;
-    font-family: 'Special Elite', cursive;
-    font-size: 50px;
-    animation: opacity 3s ease-in-out 0s infinite alternate both;
-    
+#text1 {
+  margin-top: 20px;
+  opacity: 50%;
+  align-items: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 45px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  
 }
+
+#blocImage {
+  display: block;
+  position: relative;
+  background-image:url(images/portrait1.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border: 4mm ridge goldenrod;
+  width: 270px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* PORTRAIT 2 */
 
