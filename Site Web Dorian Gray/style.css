@@ -19,7 +19,6 @@ body {
     border: 0 solid;
     border-radius: 8px;
     background-color: white;
-    height: 300px;
     width: 800px;
     font-family: 'Special Elite', cursive;
     margin-top: 300px;
@@ -28,9 +27,38 @@ body {
 .livre p{
     text-align: justify;
     font-size: 18px;
+    line-height: 32px;
 }
 
 /* PORTRAIT 1 */
+
+.extrait1-1 {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: 50px;
+  width: 390px;
+  padding: 10px;
+}
+
+.extr1 {
+  text-align: justify;
+  margin: 0;
+}
+
+.extrait1-2 {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: 1050px;
+  width: 390px;
+  padding: 10px;
+}
+
+.extr2 {
+  text-align: justify;
+  margin: 0;
+}
 
 .portrait1 {
     font-family: 'Texturina', serif;
@@ -140,7 +168,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-animation: test 10s ease-in-out 0s infinite alternate both;
+  animation: test 10s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 4 */
@@ -177,7 +205,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-animation: test2 7s ease-in-out 0s infinite alternate both;
+  animation: test2 7s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -361,7 +389,7 @@ body {
   }
 }
 
-@-webkit-keyframes test {
+@keyframes test {
   0% {
     background-image: url(images/portrait1.png);
   }
@@ -373,20 +401,11 @@ body {
   }
 }
 
-@-webkit-keyframes test2 {
+@keyframes test2 {
   0% {
     background-image: url(images/portrait1.png);
   }
   100% {
     background-image: url(images/portrait2.png);
+  }
 }
-
-
-
-
-
-
-
-
-
-
