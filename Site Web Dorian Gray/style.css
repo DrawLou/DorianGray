@@ -43,12 +43,6 @@ body {
     font-size: 60px;
 }
 
-#blocImage p {
-  width: 100%;
-  margin : auto;
-  z-index: 200;
-}
-
 #text1 {
   margin-top: 20px;
   opacity: 50%;
@@ -59,7 +53,7 @@ body {
   
 }
 
-#blocImage {
+#blocImage1 {
   display: block;
   position: relative;
   background-image:url(images/portrait1.png);
