@@ -54,7 +54,7 @@ body {
 
 .motCle1 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     opacity: 100%;
@@ -69,6 +69,7 @@ body {
     align-items: center;
     font-family: 'Special Elite', cursive;
     font-size: 50px;
+    animation: opacity 3s ease-in-out 0s infinite alternate both;
     
 }
 
@@ -96,7 +97,7 @@ body {
 
 .motCle2 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
@@ -110,6 +111,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 3 */
@@ -136,7 +138,7 @@ body {
 
 .motCle3 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
@@ -151,6 +153,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 4 */
@@ -176,7 +179,7 @@ body {
 
 .motCle4 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
@@ -191,6 +194,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -217,7 +221,7 @@ body {
 
 .motCle5 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
@@ -232,6 +236,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 6 */
@@ -260,7 +265,7 @@ body {
 
 .motCle6 h3{
     position: relative;
-    top: 90px;
+    top: 80px;
     left: 5px;
     font-size: 50px;
     /*color: rgb(37, 253, 37);*/
@@ -274,6 +279,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 50px;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
 }
 
 /* KEYFRAMES */
@@ -374,7 +380,14 @@ body {
   }
 }
 
-
+@keyframes opacity{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
 
 
 
