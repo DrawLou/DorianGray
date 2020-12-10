@@ -44,6 +44,8 @@ body {
 .extr1 {
   text-align: justify;
   margin: 0;
+  font-family: 'Special Elite', cursive;
+  line-height: 23px;
 }
 
 .extrait1-2 {
@@ -58,6 +60,8 @@ body {
 .extr2 {
   text-align: justify;
   margin: 0;
+  font-family: 'Special Elite', cursive;
+  line-height: 23px;
 }
 
 .portrait1 {
