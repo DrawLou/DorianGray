@@ -81,7 +81,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -152,7 +152,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -212,7 +212,7 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
-    animation: moveX 10s linear 0s infinite normal both; 
+    animation: moveX 10s linear 0s  normal both; 
 }
 
 #text3 {
@@ -221,7 +221,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -236,7 +236,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  animation: test 10s ease-in-out 0s infinite alternate both;
+  animation: test 10s ease-in-out 0s alternate both;
 }
 
 /* PORTRAIT 4 */
@@ -281,7 +281,7 @@ body {
 
 .portrait4 h2 {
     font-size: 60px;
-    animation: moveX 3s linear 0s infinite normal both;
+    animation: moveX 3s linear 0s normal both;
 }
 
 #text4 {
@@ -290,7 +290,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -305,7 +305,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  animation: test2 7s ease-in-out 0s infinite alternate both;
+  animation: test2 7s ease-in-out 0s alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -360,7 +360,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -429,7 +429,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
+  animation: opacity 3s ease-in-out 0s alternate both;
   
 }
 
@@ -545,11 +545,14 @@ body {
 }
 
 @keyframes opacity{
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  50% {
     opacity: 0.4;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -573,3 +576,17 @@ body {
     background-image: url(images/portrait2.png);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
