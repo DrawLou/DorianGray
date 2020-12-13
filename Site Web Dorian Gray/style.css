@@ -366,7 +366,7 @@ body {
 
 .portrait5 h2 {
     font-size: 60px;
-    /*animation: glitch 1s linear infinite;*/
+    animation: glitch 1s linear infinite;
 }
 
 #text5 {
