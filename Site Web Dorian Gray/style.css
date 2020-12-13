@@ -1,15 +1,20 @@
 body {
-    background: linear-gradient(rgb(255, 255, 255), rgb(184, 1, 1), black);
+  margin: 0;
+  padding: 0;  
+  background: linear-gradient(rgb(255, 255, 255), rgb(184, 1, 1), black);
 }
 
 /* PAGE D'ACCUEIL */
 
 .titre {
+    width: 100vw;
+    height: 100vh;
     font-size: 80px;
-    font-family: 'Texturina', serif;
+    display: flex;
     text-align: center;
-    margin-top: 130px;
-    padding: 50px;
+    font-family: 'Texturina', serif;
+    align-items: center;
+    justify-content: center;
 }
 
 .livre {   
