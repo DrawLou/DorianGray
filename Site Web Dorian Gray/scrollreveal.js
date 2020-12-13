@@ -32,7 +32,9 @@ $(function() {
 
     sr.reveal('p', {delay: 200});
 
-    sr.reveal('#blocImage', {delay: 400});
+    sr.reveal('#blocImage', {delay: 300});
+
+    sr.reveal('.portrait2 h2', {delay: 200});
 
     sr.reveal('.portrait3 h2', {delay: 200});
 
