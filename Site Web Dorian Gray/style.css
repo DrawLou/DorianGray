@@ -44,6 +44,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr1 {
@@ -60,6 +61,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr2 {
@@ -114,6 +116,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr2-1 {
@@ -130,6 +133,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr2-2 {
@@ -183,6 +187,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr3-1 {
@@ -199,6 +204,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr3-2 {
@@ -253,6 +259,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr4-1 {
@@ -269,6 +276,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr4-2 {
@@ -322,6 +330,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr5-1 {
@@ -338,6 +347,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr5-2 {
@@ -391,6 +401,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr6-1 {
@@ -407,6 +418,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
 }
 
 .extr6-2 {
@@ -582,9 +594,23 @@ body {
   }
 }
 
+@keyframes moveY {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
 
-
-
+@keyframes opacitybloctxt {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 
