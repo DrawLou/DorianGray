@@ -5,6 +5,14 @@ $(function() {
         reset: true
     });
 
+sr.reveal('.portrait1', {delay: 600, origin: 'top', distance: '50px'});
+sr.reveal('.portrait2', {delay: 800, origin: 'top', distance: '50px'});
+sr.reveal('.portrait3', {delay: 1000, origin: 'top', distance: '50px'});
+sr.reveal('.portrait4', {delay: 1200, origin: 'top', distance: '50px'});
+sr.reveal('.portrait5', {delay: 1400, origin: 'top', distance: '50px'});
+sr.reveal('.portrait6', {delay: 1600, origin: 'top', distance: '50px'});
+
+
 // PORTRAIT 1
 
 ScrollReveal().reveal('#blocImage1', {
@@ -27,6 +35,28 @@ ScrollReveal().reveal('#text1', {
     easing: 'cubic-bezier(0.6, 0.4, 0.1, 1)',   
     rotate: {x:0, y:0, z:0}, 
     delay: 500, 
+});
+
+ScrollReveal().reveal('extrait1-1', {
+    duration: 1500,     
+    origin: 'bottom',   
+    distance: '50px',   
+    scale: 0.2,         
+    opacity: 0,         
+    easing: 'cubic-bezier(0.6, 0.4, 0.1, 1)',   
+    rotate: {x:0, y:0, z:0}, 
+    delay: 500,
+});
+
+ScrollReveal().reveal('extrait1-2', {
+    duration: 1500,     
+    origin: 'bottom',   
+    distance: '50px',   
+    scale: 0.2,         
+    opacity: 0,         
+    easing: 'cubic-bezier(0.6, 0.4, 0.1, 1)',   
+    rotate: {x:0, y:0, z:0}, 
+    delay: 500,
 });
 
 // PORTRAIT 2
