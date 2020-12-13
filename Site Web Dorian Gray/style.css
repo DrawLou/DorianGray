@@ -44,7 +44,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr1 {
@@ -61,7 +61,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr2 {
@@ -88,7 +88,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
@@ -116,7 +116,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr2-1 {
@@ -133,7 +133,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr2-2 {
@@ -161,7 +161,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
@@ -187,7 +187,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr3-1 {
@@ -204,7 +204,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr3-2 {
@@ -223,7 +223,7 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
-    animation: moveX 10s linear 0s  normal both; 
+    animation: moveX 10s linear 0s infinite normal both; 
 }
 
 #text3 {
@@ -232,7 +232,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
@@ -259,7 +259,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr4-1 {
@@ -276,7 +276,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr4-2 {
@@ -294,7 +294,7 @@ body {
 
 .portrait4 h2 {
     font-size: 60px;
-    animation: moveX 3s linear 0s normal both;
+    animation: moveX 3s linear 0s infinite both;
 }
 
 #text4 {
@@ -303,7 +303,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
@@ -318,7 +318,7 @@ body {
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  animation: test2 7s ease-in-out 0s alternate both;
+  animation: test2 7s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -330,7 +330,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr5-1 {
@@ -347,7 +347,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr5-2 {
@@ -375,7 +375,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
@@ -401,7 +401,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0s alternate both, opacitybloctxt 3s ease-in-out 0s alternate both ;
+  animation: moveY 3s ease-in-out 0s normal both, opacitybloctxt 3s ease-in-out 0s normal both ;
 }
 
 .extr6-1 {
@@ -418,7 +418,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
-  animation: moveY 3s ease-in-out 0.8s alternate both, opacitybloctxt 3s ease-in-out 0.8s alternate both ;
+  animation: moveY 3s ease-in-out 0.8s normal both, opacitybloctxt 3s ease-in-out 0.8s normal both ;
 }
 
 .extr6-2 {
@@ -446,7 +446,7 @@ body {
   align-items: center;
   font-family: 'Special Elite', cursive;
   font-size: 45px;
-  animation: opacity 3s ease-in-out 0s alternate both;
+  animation: opacity 3s ease-in-out 0s infinite alternate both;
   
 }
 
