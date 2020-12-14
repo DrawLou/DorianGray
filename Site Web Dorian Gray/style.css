@@ -183,6 +183,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear ;
 }
 
 .extr3-1 {
@@ -199,6 +200,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear 2s;
 }
 
 .extr3-2 {
@@ -253,6 +255,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear ;
 }
 
 .extr4-1 {
@@ -269,6 +272,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear 2s;
 }
 
 .extr4-2 {
@@ -322,6 +326,7 @@ body {
   margin-left: 50px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear ;
 }
 
 .extr5-1 {
@@ -338,6 +343,7 @@ body {
   margin-left: 1050px;
   width: 390px;
   padding: 10px;
+  animation: glitch 3s linear 2s;
 }
 
 .extr5-2 {
