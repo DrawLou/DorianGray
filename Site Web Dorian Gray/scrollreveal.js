@@ -15,23 +15,23 @@ $(function() {
 
     sr.reveal('.livre', {delay: 200, origin: 'bottom', distance: '100px'});
 
-    sr.reveal('.extrait1-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait1-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait1-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait1-2', {delay: 500, origin: 'right', distance: '100px'});
 
-    sr.reveal('.extrait2-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait2-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait2-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait2-2', {delay: 500, origin: 'right', distance: '100px'});
 
-    sr.reveal('.extrait3-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait3-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait3-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait3-2', {delay: 500, origin: 'right', distance: '100px'});
     
-    sr.reveal('.extrait4-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait4-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait4-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait4-2', {delay: 500, origin: 'right', distance: '100px'});
 
-    sr.reveal('.extrait5-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait5-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait5-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait5-2', {delay: 500, origin: 'right', distance: '100px'});
         
-    sr.reveal('.extrait6-1', {delay: 200, origin: 'bottom', distance: '100px'});
-    sr.reveal('.extrait6-2', {delay: 400, origin: 'bottom', distance: '100px'});
+    sr.reveal('.extrait6-1', {delay: 200, origin: 'left', distance: '100px'});
+    sr.reveal('.extrait6-2', {delay: 500, origin: 'right', distance: '100px'});
 
     sr.reveal('p', {delay: 200});
 
