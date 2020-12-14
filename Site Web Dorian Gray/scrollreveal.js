@@ -10,6 +10,9 @@ $(function() {
         });
         
     // section RESUME
+
+    sr.reveal('.titre', {delay: 200, origin: 'bottom', distance: '100px'});
+
     sr.reveal('.livre', {delay: 200, origin: 'bottom', distance: '100px'});
 
     sr.reveal('.extrait1-1', {delay: 200, origin: 'bottom', distance: '100px'});
