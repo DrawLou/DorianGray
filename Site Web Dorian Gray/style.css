@@ -557,7 +557,7 @@ body {
   }
 
 
-/* moveX */
+/* MOUVEMENT EN X */
 
 @keyframes moveX {
     0% {
@@ -567,6 +567,8 @@ body {
         transform: translateX(1800px);
     }
 }
+
+/* COEUR QUI BAT */
 
 @keyframes heartbeat
 {
@@ -596,6 +598,8 @@ body {
   }
 }
 
+/* OPACITY */
+
 @keyframes opacity{
   0% {
     opacity: 0;
@@ -607,6 +611,8 @@ body {
     opacity: 0;
   }
 }
+
+/* PORTRAIT */
 
 @keyframes test {
   0% {
@@ -628,25 +634,6 @@ body {
     background-image: url(images/portrait2.png);
   }
 }
-
-/*@keyframes moveY {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-30px);
-  }
-}
-
-@keyframes opacitybloctxt {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}*/
-
 
 
 
