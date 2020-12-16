@@ -37,38 +37,6 @@ body {
 
 /* PORTRAIT 1 */
 
-.extrait1-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait1-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
 .portrait1 {
     font-family: 'Texturina', serif;
     margin-top: 300px;
@@ -135,7 +103,7 @@ body {
   background-image:url(images/portrait1.png);
   background-size: 390px;
   background-repeat: no-repeat;
-  border: 4mm ridge goldenrod;
+  border: 4mm ridge rgb(218, 165, 32);
   width: 350px;
   height: 550px;
   margin-left: auto;
@@ -146,38 +114,6 @@ body {
 
 /* PORTRAIT 2 */
 
-.extrait2-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr2-1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait2-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr2-2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
 .portrait2 {
     font-family: 'Texturina', serif;
     margin-top: 300px;
@@ -187,67 +123,72 @@ body {
 
 .portrait2 h2 {
     font-size: 60px;
+    margin: auto;
     animation: heartbeat 1s infinite; 
 }
 
-#text2 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot2-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot2-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot2-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot2-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot2-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.mot2-6 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1100px;
+  margin-top: 300px;
 }
 
 #blocImage2 {
   display: block;
   position: relative;
   background-image:url(images/portrait1.png);
-  background-size: 300px;
+  background-size: 390px;
   background-repeat: no-repeat;
-  border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  border: 4mm ridge rgb(218, 165, 32);
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* PORTRAIT 3 */
-
-.extrait3-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear ;
-}
-
-.extr3-1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait3-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear 2s;
-}
-
-.extr3-2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
 
 .portrait3 {
     font-family: 'Texturina', serif;
@@ -258,68 +199,72 @@ body {
 
 .portrait3 h2 {
     font-size: 60px;
+    margin: auto;
     animation: moveX 10s linear 0s infinite normal both; 
 }
 
-#text3 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot3-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot3-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot3-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot3-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot3-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.mot3-6 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1100px;
+  margin-top: 300px;
 }
 
 #blocImage3 {
   display: block;
   position: relative;
-  background-color: white;
-  background-size: 300px;
+  background-image:url(images/portrait1.png);
+  background-size: 390px;
   background-repeat: no-repeat;
-  border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  border: 4mm ridge rgb(218, 165, 32);
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
-  animation: test 10s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 4 */
-
-.extrait4-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear ;
-}
-
-.extr4-1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait4-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear 2s;
-}
-
-.extr4-2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
 
 .portrait4 {
     font-family: 'Texturina', serif;
@@ -329,68 +274,64 @@ body {
 
 .portrait4 h2 {
     font-size: 60px;
+    margin: auto;
     animation: moveX 3s linear 0s infinite both;
 }
 
-#text4 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot4-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot4-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot4-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot4-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot4-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
 }
 
 #blocImage4 {
   display: block;
   position: relative;
-  background-color: white;
-  background-size: 300px;
+  background-image:url(images/portrait1.png);
+  background-size: 390px;
   background-repeat: no-repeat;
-  border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  border: 4mm ridge rgb(218, 165, 32);
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
-  animation: test2 7s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
-
-.extrait5-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear ;
-}
-
-.extr5-1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait5-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-  animation: glitch 3s linear 2s;
-}
-
-.extr5-2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
 
 .portrait5 {
     font-family: 'Texturina', serif;
@@ -401,65 +342,72 @@ body {
 
 .portrait5 h2 {
     font-size: 60px;
+    margin: auto;
     animation: glitch 1s linear infinite;
 }
 
-#text5 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot5-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot5-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot5-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot5-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot5-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.mot5-6 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1100px;
+  margin-top: 300px;
 }
 
 #blocImage5 {
   display: block;
   position: relative;
-  background-image: url(images/portrait2.png);
-  background-size: 300px;
+  background-image:url(images/portrait1.png);
+  background-size: 390px;
   background-repeat: no-repeat;
-  border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  border: 4mm ridge rgb(218, 165, 32);
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* PORTRAIT 6 */
-
-.extrait6-1 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 50px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr6-1 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
-
-.extrait6-2 {
-  position: absolute;
-  background-color: white;
-  border-radius: 8px;
-  margin-left: 1050px;
-  width: 390px;
-  padding: 10px;
-}
-
-.extr6-2 {
-  text-align: justify;
-  margin: 0;
-  font-family: 'Special Elite', cursive;
-  line-height: 23px;
-}
 
 .portrait6 {
     font-family: 'Texturina', serif;
@@ -470,28 +418,67 @@ body {
 
 .portrait6 h2 {
     font-size: 60px;
-    color: white;
+    margin: auto;
+    color: rgb(255, 255, 255);
 }
 
-#text6 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot6-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot6-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot6-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot6-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot6-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.mot6-6 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1100px;
+  margin-top: 300px;
 }
 
 #blocImage6 {
   display: block;
   position: relative;
   background-image:url(images/portrait1.png);
-  background-size: 300px;
+  background-size: 390px;
   background-repeat: no-repeat;
   border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
 }
