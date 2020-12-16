@@ -262,6 +262,7 @@ body {
   height: 550px;
   margin-left: auto;
   margin-right: auto;
+  animation: test 10s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 4 */
@@ -329,6 +330,7 @@ body {
   height: 550px;
   margin-left: auto;
   margin-right: auto;
+  animation: test2 7s ease-in-out 0s infinite alternate both;
 }
 
 /* PORTRAIT 5 */
@@ -342,6 +344,7 @@ body {
 
 .portrait5 h2 {
     font-size: 60px;
+    color: rgb(255, 20, 20);
     margin: auto;
     animation: glitch 1s linear infinite;
 }
@@ -352,6 +355,7 @@ body {
   font-size: 40px;
   margin-left: 200px;
   margin-top: 50px;
+  color: rgb(255, 20, 20);
 }
 
 .mot5-2 {
@@ -360,6 +364,7 @@ body {
   font-size: 40px;
   margin-left: 1050px;
   margin-top: 100px;
+  color: rgb(255, 20, 20);
 }
 
 .mot5-3 {
@@ -368,6 +373,7 @@ body {
   font-size: 40px;
   margin-left: 100px;
   margin-top: 150px;
+  color: rgb(255, 20, 20);
 }
 
 .mot5-4 {
@@ -376,6 +382,7 @@ body {
   font-size: 40px;
   margin-left: 1150px;
   margin-top: 200px;
+  color: rgb(255, 20, 20);
 }
 
 .mot5-5 {
@@ -384,6 +391,7 @@ body {
   font-size: 40px;
   margin-left: 250px;
   margin-top: 250px;
+  color: rgb(255, 20, 20);
 }
 
 .mot5-6 {
@@ -392,12 +400,13 @@ body {
   font-size: 40px;
   margin-left: 1100px;
   margin-top: 300px;
+  color: rgb(255, 20, 20);
 }
 
 #blocImage5 {
   display: block;
   position: relative;
-  background-image:url(images/portrait1.png);
+  background-image:url(images/portrait2.png);
   background-size: 390px;
   background-repeat: no-repeat;
   border: 4mm ridge rgb(218, 165, 32);
@@ -428,6 +437,7 @@ body {
   font-size: 40px;
   margin-left: 200px;
   margin-top: 50px;
+  color: rgb(255, 255, 255);
 }
 
 .mot6-2 {
@@ -436,6 +446,7 @@ body {
   font-size: 40px;
   margin-left: 1050px;
   margin-top: 100px;
+  color: rgb(255, 255, 255);
 }
 
 .mot6-3 {
@@ -444,6 +455,7 @@ body {
   font-size: 40px;
   margin-left: 100px;
   margin-top: 150px;
+  color: rgb(255, 255, 255);
 }
 
 .mot6-4 {
@@ -452,6 +464,7 @@ body {
   font-size: 40px;
   margin-left: 1150px;
   margin-top: 200px;
+  color: rgb(255, 255, 255);
 }
 
 .mot6-5 {
@@ -460,6 +473,7 @@ body {
   font-size: 40px;
   margin-left: 250px;
   margin-top: 250px;
+  color: rgb(255, 255, 255);
 }
 
 .mot6-6 {
@@ -468,6 +482,7 @@ body {
   font-size: 40px;
   margin-left: 1100px;
   margin-top: 300px;
+  color: rgb(255, 255, 255);
 }
 
 #blocImage6 {
