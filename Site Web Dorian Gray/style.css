@@ -37,20 +37,6 @@ body {
 
 /* PORTRAIT 1 */
 
-.txtr {
-  position: absolute;
-  font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  margin-left: 100px;
-}
-
-.txtg {
-  position: absolute;
-  font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  margin-left: 1090px;
-}
-
 .extrait1-1 {
   position: absolute;
   background-color: white;
@@ -92,27 +78,66 @@ body {
 
 .portrait1 h2 {
     font-size: 60px;
+    margin: auto;
 }
 
-/*#text1 {
-  margin-top: 20px;
-  opacity: 50%;
-  align-items: center;
+.mot1-1 {
+  position: absolute;
   font-family: 'Special Elite', cursive;
-  font-size: 45px;
-  animation: opacity 3s ease-in-out 0s infinite alternate both;
-  
-}*/
+  font-size: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.mot1-2 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1050px;
+  margin-top: 100px;
+}
+
+.mot1-3 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.mot1-4 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1150px;
+  margin-top: 200px;
+}
+
+.mot1-5 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 250px;
+}
+
+.mot1-6 {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  margin-left: 1100px;
+  margin-top: 300px;
+}
 
 #blocImage1 {
   display: block;
   position: relative;
   background-image:url(images/portrait1.png);
-  background-size: 300px;
+  background-size: 390px;
   background-repeat: no-repeat;
   border: 4mm ridge goldenrod;
-  width: 270px;
-  height: 350px;
+  width: 350px;
+  height: 550px;
   margin-left: auto;
   margin-right: auto;
 }
