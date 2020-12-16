@@ -15,6 +15,13 @@ $(function() {
 
     sr.reveal('.livre', {delay: 200, origin: 'bottom', distance: '100px'});
 
+    sr.reveal('.text1-1', {delay: 200, origin: 'left', distance: '500px'});
+    sr.reveal('.text1-2', {delay: 200, origin: 'right', distance: '500px'});
+    sr.reveal('.text1-3', {delay: 200, origin: 'left', distance: '500px'});
+    sr.reveal('.text1-4', {delay: 200, origin: 'right', distance: '500px'});
+    sr.reveal('.text1-5', {delay: 200, origin: 'left', distance: '500px'});
+    sr.reveal('.text1-6', {delay: 200, origin: 'right', distance: '500px'});
+
     sr.reveal('.extrait1-1', {delay: 200, origin: 'left', distance: '100px'});
     sr.reveal('.extrait1-2', {delay: 500, origin: 'right', distance: '100px'});
 
